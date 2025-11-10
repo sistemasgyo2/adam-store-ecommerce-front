@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary text-white">
+  <div class="bg-black text-white">
     <LayoutAppContainer>
       <nav class="hidden md:flex justify-between items-center w-full">
         <ul class="flex h-12 space-x-4 items-center text-sm flex-1 justify-center">

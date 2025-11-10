@@ -12,7 +12,7 @@
       </div>
       <div class="flex items-center space-x-2">
         <NuxtLink to="/">
-          <img src="~/assets/images/logo_pyr.png" alt="Portátiles y Redes S.A.C." class="h-10" />
+          <img src="~/assets/images/logo_adam.webp" alt="Adams Store S.A.C." class="h-14" />
         </NuxtLink>
       </div>
 

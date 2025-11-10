@@ -175,7 +175,7 @@ const lastSlide = ref<Slide | null>(subSlides.value[4] ?? null);
 
 
 useHead({
-  title: 'Portátiles y Redes',
+  title: 'Adams Store',
 });
 </script>
 

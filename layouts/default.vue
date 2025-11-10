@@ -6,6 +6,7 @@
     <LayoutFooter />
     <LayoutCart />
     <Toaster />
+    <WhatsappButton />
   </div>
 </template>
 
