@@ -93,7 +93,7 @@
       </div>
     </LayoutAppContainer>
   </section>
-  <section>
+  <!-- <section>
     <LayoutAppContainer class="mb-10">
       <AppTitle>Super Ofertas</AppTitle>
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -109,9 +109,9 @@
         </div>
       </div>
     </LayoutAppContainer>
-  </section>
+  </section> -->
 
-  <section>
+  <!-- <section>
     <LayoutAppContainer class="mb-10">
       <AppTitle>Lo más destacado</AppTitle>
       <Carousel :opts="{
@@ -125,7 +125,7 @@
         </CarouselContent>
       </Carousel>
     </LayoutAppContainer>
-  </section>
+  </section> -->
 
 </template>
 
@@ -175,7 +175,7 @@ const lastSlide = ref<Slide | null>(subSlides.value[4] ?? null);
 
 
 useHead({
-  title: 'Portátiles y Redes',
+  title: 'Adams Store',
 });
 </script>
 
