@@ -1,10 +1,13 @@
 <template>
   <div>
-    <button class="w-full flex justify-between items-center py-2 hover:bg-gray-100 font-semibold"
+    <button v-if="hasChildren" class="w-full flex justify-between items-center py-2 hover:bg-gray-100 font-semibold"
       :class="`pl-${basePadding}`" @click="toggle">
       <span>{{ item.name }}</span>
-      <span v-if="hasChildren" class="text-lg">{{ isOpen ? '−' : '+' }}</span>
+      <span class="text-lg">{{ isOpen ? '−' : '+' }}</span>
     </button>
+    <a v-else :href="`/categoria/${item.slug}`" class="w-full flex justify-between items-center py-2 hover:bg-gray-100 font-semibold">
+      {{ item.name }}
+    </a>
 
     <transition name="slideUp">
       <ul v-if="isOpen">

@@ -66,7 +66,7 @@
       </div>
     </LayoutAppContainer>
   </section>
-  <section class="py-12 bg-gray-50">
+  <section v-if="brands.length > 0" class="py-12 bg-gray-50">
     <LayoutAppContainer>
       <div class="relative overflow-hidden">
         <div class="flex animate-scroll w-max whitespace-nowrap">
